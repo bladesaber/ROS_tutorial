@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC “-std=c++0x”  -shared -Wl,-soname,librobot_controller.so -o /home/bladesaber/Desktop/ROS/devel/lib/librobot_controller.so CMakeFiles/robot_controller.dir/src/gazebo_interface/RobotController.cpp.o 

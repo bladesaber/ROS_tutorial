@@ -1,0 +1,2 @@
+basic:followbot:teleop_bot:wanderbot
+-DCATKIN_DEVEL_PREFIX=/home/bladesaber/Desktop/ROS/devel -DCMAKE_INSTALL_PREFIX=/home/bladesaber/Desktop/ROS/install -G Unix Makefiles

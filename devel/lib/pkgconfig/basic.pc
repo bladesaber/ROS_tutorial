@@ -1,0 +1,8 @@
+prefix=/home/bladesaber/Desktop/ROS/devel
+
+Name: basic
+Description: Description of basic
+Version: 0.0.0
+Cflags: -I/home/bladesaber/Desktop/ROS/devel/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime actionlib_msgs

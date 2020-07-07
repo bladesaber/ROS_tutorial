@@ -1,0 +1,31 @@
+
+(cl:in-package :asdf)
+
+(defsystem "r2_msgs-msg"
+  :depends-on (:roslisp-msg-protocol :roslisp-utils :geometry_msgs-msg
+               :std_msgs-msg
+)
+  :components ((:file "_package")
+    (:file "Gains" :depends-on ("_package_Gains"))
+    (:file "_package_Gains" :depends-on ("_package"))
+    (:file "JointControl" :depends-on ("_package_JointControl"))
+    (:file "_package_JointControl" :depends-on ("_package"))
+    (:file "JointStatus" :depends-on ("_package_JointStatus"))
+    (:file "_package_JointStatus" :depends-on ("_package"))
+    (:file "JointStatusArray" :depends-on ("_package_JointStatusArray"))
+    (:file "_package_JointStatusArray" :depends-on ("_package"))
+    (:file "PDMCStatus" :depends-on ("_package_PDMCStatus"))
+    (:file "_package_PDMCStatus" :depends-on ("_package"))
+    (:file "PoseCommand" :depends-on ("_package_PoseCommand"))
+    (:file "_package_PoseCommand" :depends-on ("_package"))
+    (:file "PoseCommandArray" :depends-on ("_package_PoseCommandArray"))
+    (:file "_package_PoseCommandArray" :depends-on ("_package"))
+    (:file "PoseCommandParams" :depends-on ("_package_PoseCommandParams"))
+    (:file "_package_PoseCommandParams" :depends-on ("_package"))
+    (:file "PoseCommandStatus" :depends-on ("_package_PoseCommandStatus"))
+    (:file "_package_PoseCommandStatus" :depends-on ("_package"))
+    (:file "PoseTwistStamped" :depends-on ("_package_PoseTwistStamped"))
+    (:file "_package_PoseTwistStamped" :depends-on ("_package"))
+    (:file "TorsoStatus" :depends-on ("_package_TorsoStatus"))
+    (:file "_package_TorsoStatus" :depends-on ("_package"))
+  ))

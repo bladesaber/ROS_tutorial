@@ -1,0 +1,8 @@
+prefix=/home/bladesaber/Desktop/ROS/install
+
+Name: gazebo_gripper
+Description: Description of gazebo_gripper
+Version: 0.5.5
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 

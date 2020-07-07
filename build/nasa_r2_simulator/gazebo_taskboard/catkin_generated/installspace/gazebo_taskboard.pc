@@ -1,0 +1,8 @@
+prefix=/home/bladesaber/Desktop/ROS/install
+
+Name: gazebo_taskboard
+Description: Description of gazebo_taskboard
+Version: 0.5.5
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime message_generation actionlib geometry_msgs pluginlib roscpp rospy rostest std_msgs

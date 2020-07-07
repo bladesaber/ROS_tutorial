@@ -1,0 +1,8 @@
+prefix=/home/bladesaber/Desktop/ROS/install
+
+Name: followbot_per
+Description: Description of followbot_per
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

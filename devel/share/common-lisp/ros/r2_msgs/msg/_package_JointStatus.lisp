@@ -1,0 +1,20 @@
+(cl:in-package r2_msgs-msg)
+(cl:export '(PUBLISHER-VAL
+          PUBLISHER
+          JOINT-VAL
+          JOINT
+          REGISTERVALUE-VAL
+          REGISTERVALUE
+          BRIDGEENABLED-VAL
+          BRIDGEENABLED
+          MOTORENABLED-VAL
+          MOTORENABLED
+          BRAKERELEASED-VAL
+          BRAKERELEASED
+          MOTORPOWERDETECTED-VAL
+          MOTORPOWERDETECTED
+          EMBEDDEDMOTCOM-VAL
+          EMBEDDEDMOTCOM
+          JOINTFAULTED-VAL
+          JOINTFAULTED
+))

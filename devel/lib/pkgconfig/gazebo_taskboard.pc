@@ -1,0 +1,8 @@
+prefix=/home/bladesaber/Desktop/ROS/devel
+
+Name: gazebo_taskboard
+Description: Description of gazebo_taskboard
+Version: 0.5.3
+Cflags: -I/home/bladesaber/Desktop/ROS/devel/include -I/home/bladesaber/Desktop/ROS/src/deprecated_nasa_r2_simulator/gazebo_taskboard/include
+Libs: -L${prefix}/lib 
+Requires: std_msgs
